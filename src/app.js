@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import HomeScreen from "./screen/home";
 
 export default function App() {
   return (
-    <div>App test for a merge rwq</div>
-  )
+    <React.StrictMode>
+      <HomeScreen />
+    </React.StrictMode>
+  );
 }
